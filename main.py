@@ -8,6 +8,7 @@ def main():
   book_text = get_book_text("./books/frankenstein.txt")
   num_words = get_num_words(book_text)
   char_counts = get_char_counts(book_text)
+
   print(f"Found {num_words} total words")
   print(char_counts)
 
